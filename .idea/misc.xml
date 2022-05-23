@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MariSholat/app/src/main/res/layout/activity_cari.xml" value="0.203125" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/activity_detail.xml" value="0.22" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/activity_detail_artikel.xml" value="0.22" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/activity_info.xml" value="0.26633986928104575" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/custom_layout.xml" value="0.18" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/fragment_artikel.xml" value="0.203125" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/fragment_beranda.xml" value="0.203125" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/fragment_disukai.xml" value="0.203125" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/kartu_artikel.xml" value="0.203125" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/kartu_tatakan.xml" value="0.203125" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/kartu_tatakan_disukai.xml" value="0.25" />
+        <entry key="..\:/MariSholat/app/src/main/res/layout/text_inpu_password.xml" value="0.1" />
+        <entry key="..\:/MariSholat/app/src/main/res/menu/bottom_menu.xml" value="0.203125" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/drawable/color_selector.xml" value="0.21927083333333333" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/drawable/custom_bottom_nav.xml" value="0.21927083333333333" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/activity_cari.xml" value="0.19074074074074074" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/activity_detail.xml" value="0.19074074074074074" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/fragment_beranda.xml" value="0.33" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/fragment_disukai.xml" value="0.2" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/layout/kartu_tatakan.xml" value="0.19074074074074074" />
+        <entry key="..\:/mobile_dev/MariSholat/app/src/main/res/menu/bottom_menu.xml" value="0.19074074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

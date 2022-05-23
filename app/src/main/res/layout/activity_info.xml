@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bbk"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_blue" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Informasi "
+            android:textAlignment="center"
+            android:textColor="@color/customPurple"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bbk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toEndOf="@+id/bbk"
+            app:layout_constraintTop_toTopOf="@+id/bbk" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bbk" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="Catatan :"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/t_pesan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bbu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_cari_daerah"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Simpan Perubahan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/t_pesan" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="8dp"
+            android:paddingBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="Info Masjid Terkenal "
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Kota :"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+                <TextView
+                    android:id="@+id/d_nm_kota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="kotanya"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Provinsi :"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/d_nm_kota" />
+
+                <TextView
+                    android:id="@+id/d_nm_prov"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="provnya"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                <TextView
+                    android:id="@+id/d_nm_masjid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/fredoka_one"
+                    android:maxLines="3"
+                    android:text="MASJID MASJID MASJID MASJID"
+                    android:textAlignment="center"
+                    android:textColor="@color/customPurple"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/d_nm_prov" />
+
+                <ImageView
+                    android:id="@+id/d_gbr_masjid"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/d_nm_masjid"
+                    app:srcCompat="@drawable/istqlal" />
+
+                <TextView
+                    android:id="@+id/d_p_mjd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Masjid Raya Baiturrahman adalah salah satu masjid yang ada di Desa Kampung Baru, Kecamatan Baiturrahman, Kota Banda Aceh. Masyarakat Aceh menggunakan masjid ini sebagai tempat ibadah dan syiar Islam. Masjid Raya Baiturrahman didirikan oleh Sultan Alauddin Mahmud Syah I pada tahun 1292 M. Bahan bangunan yang pertama terdiri dari kayu dan menggunakan atap dari rumbia. Belanda sempat menguasai masjid selama penyerbuan di Aceh pada tahun 1873 di bawah komando Jenderal Kohler. Masjid Raya Baiturrahman pernah dibakar oleh Belanda pada tahun 1874 saat penyerbuan kedua. Belanda memutuskan untuk membangun kembali masjid pada tanggal 9 Oktober 1879 atas nasehat Snouck Horgronje. Bangunan masjid dirancang oleh Kapten Genie Marechausse dan peletakan batu pertama dilakukan oleh Teungku Malikul Adil disaksikan oleh pembesar Belanda. Model Masjid Baiturrahman mencerminkan arsitektur Eropa dan Islam. Kubah masjid hanya satu sampai awal tahun 1935. Setelahnya masjid diperluas sehingga menambah dua kubah lagi. Kubah masjid bertambah menjadi 5 pada tahun 1957 setelah masjid diperbesar lagi. Masjid Raya Baiturrahman dipugar tahun 1979 dipugar dalam Proyek Pembinaan dan Pemeliharaan Peninggalan Sejarah dan Purbakala. Denah masjid berbentu empat persegi dengan pintu masuk berupa relung-relung tanpa daun pintu. Di bagian atasnya dihiasi dengan menara-menara. Kaligrafi Islam terpajang pada dinding ruangan, sedangkan pada jendela dan pintu terdapat hiasan empat persegi, belah ketupat, sulur dan bunga. Ruang ibadah memiliki tiang-tiang dengan hiasan lengkungan, daun, dan garis-garis. Mihrab dan mimbar dihiasi daun-daunan, bunga dan sulur-sulur. Di depan halaman masjid terdapat menara yang sangat tinggi dengan tangga beton berputar. Atap masjid berbentuk kubah berjumlah lima buah dengan hiasan memolo berbentuk bulat di puncak kubah.[2] Masjid Raya Baiturrahman adalah simbol agama, budaya, semangat, kekuatan, perjuangan dan nasionalisme rakyat Aceh. Masjid ini adalah landmark Banda Aceh sejak era Kesultanan Aceh dan selamat dari bencana tsunami pada 26 Desember 2004 silam."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/d_gbr_masjid" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
